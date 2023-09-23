@@ -1,0 +1,70 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: aliceblue;
+    animation-name: example;
+    animation-duration: 5s;
+}
+@keyframes example {
+    0% {background-color:  aliceblue;}
+    25% {background-color: #F0B9C2;} 
+    50% {background-color: #FFCF9D;}
+    100% {background-color: #5CD2E6;}   
+}
+.section{
+    text-align: center;
+    margin-top: 10rem;
+}
+
+h2{
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: .2rem .2rem slategray;
+}
+.star{
+    color: red;
+}
+em{
+    color: orange;
+    font-size: 3rem;
+}
+.ON{
+    font-size: 2rem;
+    background-color: white;
+    border-radius: 0.1rem;
+    border-radius: .5rem;
+    border-color:  black;
+    box-shadow: .5rem .5rem rgb(68, 64, 64);
+    color: black;
+    cursor: pointer;
+    font-display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    text-align: center;
+    font-weight: 600;
+}
+
+.ON:hover{
+    padding-right: 25px;
+} 
+#yellow:hover{
+    background-color: yellow;
+}
+.ON:hover :after{
+    opacity: 1;
+    right: 0;
+}
+
+.ON :hover {
+    background-color: blueviolet;
+}
+
+@media only screen and (max-width: 800px){
+    .ON{
+        font-size: 1.5rem;
+        height: 3rem;
+    }
+}
+
+
